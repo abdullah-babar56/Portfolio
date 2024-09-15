@@ -3,21 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Abdullah's Professional Profile</title>
+    <title>Projects - Abdullah's Professional Profile</title>
     <style>
-        /* General Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        /* Include the same CSS styles */
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
         }
 
-        /* Navigation Bar */
         nav {
             background-color: #333;
             color: #fff;
@@ -51,21 +44,20 @@
             border-radius: 5px;
         }
 
-        /* Page-specific styles */
-        #hero {
-            background: #005f73;
-            color: #fff;
-            padding: 3rem 2rem;
+        /* Projects Section */
+        .projects-container {
+            padding: 2rem;
             text-align: center;
         }
 
-        #hero h2 {
+        h2 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
         }
 
-        #hero p {
-            font-size: 1.2rem;
+        ul {
+            list-style-type: disc;
+            padding-left: 2rem;
         }
     </style>
 </head>
@@ -82,10 +74,13 @@
         </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <h2>Welcome to Abdullah's Professional Profile</h2>
-        <p>Explore my skills, projects, certifications, and achievements.</p>
+    <!-- Projects Section -->
+    <section class="projects-container">
+        <h2>Projects</h2>
+        <ul>
+            <li>AI-based Image Classifier</li>
+            <li>Personal Portfolio Website</li>
+        </ul>
     </section>
 </body>
 </html>
